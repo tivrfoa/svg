@@ -1,0 +1,142 @@
+<html>
+
+<body>
+
+
+<div>
+	<details>
+		<summary>Basic Shapes</summary>
+			<svg>
+				<line x1="0" y1="100" x2="100" y2="0" 
+					stroke-width="2" stroke="black" />
+			</svg>
+
+			<svg>
+				<rect x="0" y="0" width="200" height="150" fill="#FFFF00" stroke="blue" stroke-width="5" />
+			</svg>
+
+			<svg>
+				<line x1="0" y1="100" x2="100" y2="0" 
+					stroke-width="2" stroke="black" />
+				<rect x="20" y="0" width="60" height="150"
+					fill="#FFFF00" stroke="blue" stroke-width="5" />
+			</svg>
+	</details>
+</div>
+
+
+<div style="border: 1px solid black">
+	<details>
+		<summary>Some text</summary>
+		Some text
+		<svg>
+			<text x="15" y="45" font-size="40" fill="red">some text</text>
+		</svg>
+	</details>	
+</div>
+
+<div>
+	<details>
+		<summary>Elipse inside Rectangle</summary>
+		<svg>
+			<rect x="0" y="0" width="200" height="100"
+				fill="#FFFF00" />
+			<ellipse cx="100" cy="50" rx="100" ry="50"
+				fill="red" />
+			<text x="30" y="45" font-size="20" fill="blue">Eliane</text>
+		</svg>
+	</details>	
+</div>
+
+<div>
+	<details>
+		<summary>path and lines</summary>
+		<svg>
+			<path d="M 100 100 L 200 200" stroke="black" stroke-width="12"/>
+		</svg>
+
+		<br />
+
+		<svg>
+			<line x1="200" y1="200" x2="100" y2="100" stroke-width="12" stroke="black" />
+		</svg>
+
+		<svg>
+			<path d="M 100 200 L 200 300, 300 20,0 400 300, 500 200"
+			stroke="black" fill="none" stroke-width="5">
+		</svg>
+		<svg>
+			<path d="M 100 100 L 200 200" stroke="black" stroke-width="12"/>
+			<line x1="200" y1="200" x2="100" y2="100" stroke-width="12" stroke="black" />
+			<path d="M 100 200 L 200 300, 300 20,0 400 300, 500 200"
+				stroke="black" fill="none" stroke-width="5">
+		</svg>
+		<svg>
+			<path d="M 0 0 L 100 100" stroke="black"
+			stroke-width="12"/>
+			<line x1="0" y1="100" x2="100" y2="0"
+			stroke-width="2" stroke="black" />
+		</svg>
+		<svg>
+			<path d="M 20 40 C 100 -30 180 90 20 160 L 120 160" stroke="black" fill="none" stroke-width="5" />
+		</svg>
+		<div>
+			<svg>
+				<line x1="5" y1="10" x2="99" y2="30" stroke-width=".5" stroke="red"/>
+				<line x1="5" y1="30" x2="99" y2="50" stroke-width="1" stroke="red"/>
+				<line x1="5" y1="50" x2="99" y2="70" stroke-width="2.5" stroke="red"/>
+				<line x1="5" y1="70" x2="99" y2="90" stroke-width="4" stroke="blue"/>
+			</svg>
+		</div>
+	</details>	
+</div>
+
+<details>
+    <summary>stroke-dasharray and the stroke-linecap</summary>
+	<!-- <div style="height: 300px"> -->
+	<svg>
+		<line x1="15" y1="15" x2="140" y2="135" stroke-width="25"
+			stroke="blue" stroke-linecap="round"/>
+
+		<line x1="15" y1="15" x2="140" y2="135" stroke-width="25"
+			stroke="aqua" stroke-dasharray="8,3,2,18"/>
+
+		<line x1="15" y1="155" x2="160" y2="60" stroke-width="25"
+			stroke="blue"/>
+
+		<line x1="15" y1="155" x2="160" y2="60" stroke-width="25"
+			stroke="orange" stroke-dasharray="8,3,2"/>
+	</svg>
+</details>
+<details>
+	<summary>A variety of rectangles</summary>
+	<svg>
+		<rect x="62" y="25" height="110" width="16"
+		fill="rgb(100%,50%,50%)" stroke="black"
+		stroke-width="2"/>
+
+		<rect x="35" y="35" height="30" width="50"
+		fill="red" stroke="black" stroke-width="2"/>
+
+		<rect x="5" y="60" height="30" width="50"
+		fill="#f88" stroke="black" stroke-width="2"/>
+
+		<rect x="25" y="70" height="30" width="50"
+		fill="#ff8888" stroke="black" stroke-width="2"/>
+
+		<rect x="65" y="60" height="30" width="50"
+		fill="#eac" stroke="black" stroke-width="2"/>
+
+		<rect x="85" y="70" height="30" width="50"
+		fill="#eeaacc" stroke="black"
+		stroke-width="2"/>
+
+		<rect x="60" y="95" height="30" width="50"
+		fill="rgb(255,0,0)" stroke="black"
+		stroke-width="2"/>
+	</svg>
+</details>	
+
+</body>
+
+</html>
